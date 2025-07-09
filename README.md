@@ -79,7 +79,7 @@ woody6624/hash/전화번호목록.py
 
 ## 🚀 주차별 진행 일정 
 
-| 주차 | 폴더명 | 문제 1 | 문제 2 | 문제 3 | 문제 4 | 진행 현황 |
+| 주차 | 폴더명 | 문제 1 | 문제 2 | 문제 3 | 문제 4 | 문제 5 |
 |---|---|---|---|---|---|---|
 | 1주차 | stack | [괄호 회전하기](https://school.programmers.co.kr/learn/courses/30/lessons/76502) | [짝지어 제거하기](https://school.programmers.co.kr/learn/courses/30/lessons/12973) | [주식가격](https://school.programmers.co.kr/learn/courses/30/lessons/42584?language=python3?language=python3) | [크레인 인형뽑기 게임](https://school.programmers.co.kr/learn/courses/30/lessons/64061) | [표 편집](https://school.programmers.co.kr/learn/courses/30/lessons/81303?language=python&gad_source=1&gad_campaignid=22199869887&gbraid=0AAAAAC_c4nBhlCfaUxmyz-tbbGFdPep-v&gclid=CjwKCAjwprjDBhBTEiwA1m1d0nhO9hueoT4-0Ggskxmplgbp83XAfnMw0BKjNGqy_D_zLxueAXamChoCsOEQAvD_BwE) |
 | 1주차 | queue | [요세푸스 문제](https://www.acmicpc.net/problem/1158) | [기능 개발](https://school.programmers.co.kr/learn/courses/30/lessons/42586?gad_source=1&gad_campaignid=22366107751&gbraid=0AAAAAC_c4nDClRPieksWM_BhlaRPapxgX&gclid=CjwKCAjwprjDBhBTEiwA1m1d0qschimKA7OGEY8_XJYWyyaiA-SStTSrpA36d1eEa32oWQc-j-tB4BoC7yQQAvD_BwE) | [카드 뭉치](https://school.programmers.co.kr/learn/courses/30/lessons/159994?gad_source=1&gad_campaignid=22366107751&gbraid=0AAAAAC_c4nDClRPieksWM_BhlaRPapxgX&gclid=CjwKCAjwprjDBhBTEiwA1m1d0oukse85ZxqT6yZLmxICtmGZJEfPx2r-3pmSpsR3KNjiSCAIWgoMvxoC9xcQAvD_BwE) | 진행 예정 | 진행 예정 |
