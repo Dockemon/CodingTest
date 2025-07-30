@@ -1,0 +1,54 @@
+name: Weekly Merge to Main
+
+on:
+  schedule:
+    - cron: '0 15 * * 0'  # KST 월요일 00시
+  workflow_dispatch:
+
+jobs:
+  auto-merge:
+    runs-on: ubuntu-latest
+    env:
+      DISCORD_WEBHOOK_URL: ${{ secrets.DISCORD_WEBHOOK_URL }}
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v3
+        with:
+          ref: main
+
+      - name: Configure Git
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+
+      - name: Fetch all branches
+        run: git fetch --all
+
+      - name: Merge branches into main
+        run: |
+          git checkout main
+          conflict_branches=""
+          for branch in $(git branch -r | grep 'origin/' | grep -v 'origin/main' | sed 's|origin/||'); do
+            echo "Merging $branch..."
+            git merge --no-ff origin/$branch -m "Auto-merged $branch into main" || {
+              echo "❌ Conflict in $branch"
+              conflict_branches+="$branch\n"
+              git merge --abort
+            }
+          done
+
+          echo -e "충돌 브랜치 목록:\n$conflict_branches" > conflicts.txt
+
+      - name: Push merged changes
+        run: git push origin main
+
+      - name: Notify Discord if conflicts exist
+        if: success() || failure()
+        run: |
+          if [ -s conflicts.txt ]; then
+            curl -H "Content-Type: application/json" \
+              -X POST \
+              -d "{\"content\": \"⚠️ 머지 충돌이 발생한 브랜치 목록:\n\`\`\`\n$(cat conflicts.txt)\`\`\`\"}" \
+              $DISCORD_WEBHOOK_URL
+          fi
