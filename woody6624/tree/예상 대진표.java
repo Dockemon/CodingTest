@@ -9,6 +9,7 @@ class Solution
         int answer = 0;
         int tmp = 0; // swapValue
         // 풀이 과정의 통일성을 위해 항상 a가 b보다 작게 해준다 
+        // a가 b보다 클 경우에 대하여 tmp를 활용해 변환
         if(a > b){
             tmp = a;
             a = b;
