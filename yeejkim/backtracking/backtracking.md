@@ -47,6 +47,8 @@
 
 ## 📝 기본 코드 템플릿 (Python)
 
+- **선택 → 탐색 → 복구(되돌리기)**
+
 ```python
 def backtrack(depth):
     if depth == 목표깊이:
@@ -54,9 +56,14 @@ def backtrack(depth):
         return
 
     for i in range(시작값, 끝값):
-        if 유망하지 않다면:  # 가지치기(pruning)
+        if 조건에 맞지 않으면: # 유망하지 않으면
             continue
 
-        상태선택
+        # 상태 선택
+        선택된_값_저장.append(i)
+
+        # 재귀 호출 (다음 단계 진행)
         backtrack(depth + 1)
-        상태복원 (되돌리기)
+
+        # 상태 복구 (선택 되돌리기)
+        선택된_값_저장.pop()
