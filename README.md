@@ -88,7 +88,8 @@ woody6624/hash/전화번호목록.py
 | 2주차 | set | [영어 끝말잇기](https://school.programmers.co.kr/learn/courses/30/lessons/12981) | [폰켓몬](https://school.programmers.co.kr/learn/courses/30/lessons/1845) | [의상](https://school.programmers.co.kr/learn/courses/30/lessons/42578) | 진행 예정 | 진행 예정 |
 | 3주차 | graph | [게임 맵 최단거리](https://school.programmers.co.kr/learn/courses/30/lessons/1844) | [네트워크](https://school.programmers.co.kr/learn/courses/30/lessons/43162) | [여행경로](https://school.programmers.co.kr/learn/courses/30/lessons/43164) | [미로 탈출](https://school.programmers.co.kr/learn/courses/30/lessons/159993) | 진행 예정 |
 | 3주차 | backtracking | [피로도](https://school.programmers.co.kr/learn/courses/30/lessons/87946) | [N-Queen](https://school.programmers.co.kr/learn/courses/30/lessons/12952) | [양궁 대회](https://school.programmers.co.kr/learn/courses/30/lessons/92342) | 진행 예정 | 진행 예정 |
-
+| 4주차 | sort | [문자열 내 마음대로 정렬하기](https://school.programmers.co.kr/learn/courses/30/lessons/12915) | [정수 내림차순으로 배치하기](https://school.programmers.co.kr/learn/courses/30/lessons/12933) | [K번째 수](https://school.programmers.co.kr/learn/courses/30/lessons/42748) | [가장 큰 수](https://school.programmers.co.kr/learn/courses/30/lessons/42746) | [전화번호 목록](https://school.programmers.co.kr/learn/courses/30/lessons/42577) |
+| 4주차 | simulation | [이진 변환 반복하기](https://school.programmers.co.kr/learn/courses/30/lessons/70129) | [롤케이크 자르기](https://school.programmers.co.kr/learn/courses/30/lessons/132265) | [카펫](https://school.programmers.co.kr/learn/courses/30/lessons/42842) |  [점프와 순간 이동](https://school.programmers.co.kr/learn/courses/30/lessons/12980) |  [캐릭터의 좌표](https://school.programmers.co.kr/learn/courses/30/lessons/120861) |
 
 
 -----
