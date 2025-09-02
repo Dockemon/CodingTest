@@ -93,6 +93,8 @@ woody6624/hash/전화번호목록.py
 | 5주차 | dp | [피보나치 수](https://school.programmers.co.kr/learn/courses/30/lessons/12945) | [2 x n 타일링](https://school.programmers.co.kr/learn/courses/30/lessons/12900) | [정수 삼각형](https://school.programmers.co.kr/learn/courses/30/lessons/43105) | [N으로 표현](https://school.programmers.co.kr/learn/courses/30/lessons/42895) | [도둑질](https://school.programmers.co.kr/learn/courses/30/lessons/42897) |
 | 5주차 | greedy | [예산](https://school.programmers.co.kr/learn/courses/30/lessons/12982) | [구명보트](https://school.programmers.co.kr/learn/courses/30/lessons/42885) | [귤 고르기](https://school.programmers.co.kr/learn/courses/30/lessons/138476) | [기지국 설치](https://school.programmers.co.kr/learn/courses/30/lessons/12979) | [단속카메라](https://school.programmers.co.kr/learn/courses/30/lessons/42884) |
 | 6주차 | 기출 | [동영상 재생기](https://school.programmers.co.kr/learn/courses/30/lessons/340213) | [퍼즐 게임 챌린지](https://school.programmers.co.kr/learn/courses/30/lessons/340212) | [충돌위험 찾기](https://school.programmers.co.kr/learn/courses/30/lessons/340211) | [가장 많이 받은 선물](https://school.programmers.co.kr/learn/courses/30/lessons/258712) | [도넛과 막대 그래프](https://school.programmers.co.kr/learn/courses/30/lessons/258711) |
+| 7주차 | 기출2 | [개인정보 수집 유효기간](https://school.programmers.co.kr/learn/courses/30/lessons/150370) | [택배 배달과 수거하기](https://school.programmers.co.kr/learn/courses/30/lessons/150369) | [이모티콘 할인행사](https://school.programmers.co.kr/learn/courses/30/lessons/150368) | [주사위 고르기](https://school.programmers.co.kr/learn/courses/30/lessons/258709) | [코딩 테스트 공부](https://school.programmers.co.kr/learn/courses/30/lessons/118668) |
+
 
 
 
